@@ -1,0 +1,11 @@
+$flipAnimationVariables: (
+    $duration: 500ms,
+)
+
+//! export throws error
+//? How to export variables from scss to ts file
+:export {
+    @each $prop, $value in $flipAnimationVariables {
+        #{$prop}: $value;
+    }
+}
