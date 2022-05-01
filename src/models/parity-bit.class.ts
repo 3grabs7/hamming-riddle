@@ -1,6 +1,6 @@
 import { Bit } from './bit.class';
 import type { ParityIndex } from './bit.types';
-import { ParityData } from './parity.data';
+import { ParityData } from '../data/parity.data';
 import type { BitType } from './bit.types';
 
 export class ParityBit extends Bit {
