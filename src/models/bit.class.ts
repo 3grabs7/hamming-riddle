@@ -11,7 +11,6 @@ export abstract class Bit {
 
   constructor(position: ParityIndex | DataIndex) {
     this.position = position;
-    this.setRandomValue();
   }
 
   flip(): void {
